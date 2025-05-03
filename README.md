@@ -1,19 +1,16 @@
-1. install_phpipam.sh
-Um script automatizado que realiza:
+🚀 Como Utilizar
 
-Instalação do Apache, MariaDB, PHP e módulos necessários.
+#Clone o repositório:
+git clone https://github.com/seuusuario/phpipam-installer.git
+cd phpipam-installer
 
-Clonagem do repositório oficial do phpIPAM.
+#Torne o script executável:
+chmod +x install_phpipam.sh
 
-Configuração do banco de dados.
+#Execute o script:
+sudo ./install_phpipam.sh
 
-Configuração do Apache para o phpIPAM.
+#Após a instalação, acesse via navegador:
+http://<IP_DO_SEU_SERVIDOR>/
 
-2. README.md
-Instruções passo a passo para:
-
-Executar o script de instalação.
-
-Acessar a interface web do phpIPAM.
-
-Realizar a configuração inicial via navegador.
+#Siga as instruções na interface web para concluir a configuração.
